@@ -160,7 +160,7 @@
      top: 190px;
      left: 5px;
      width: 45px;
-     height: 410px;
+     height: 408px;
 }
 
     .element-1{
@@ -257,7 +257,7 @@
       100% { opacity: 1; }
 }
 
-    .principal-title {
+.principal-title {
      animation: move 2s 1;
      text-decoration: none;
      background-image: url('/assets/img/whatsapp_480px.png');
@@ -269,9 +269,9 @@
 
 }
 
-.card-servicos{
+.card-servicos a{
   text-decoration: none;
-  color: #111;
+  color: #642826;
   font-size: 16px;
   text-align: left;
   
