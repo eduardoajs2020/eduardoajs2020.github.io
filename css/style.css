@@ -69,10 +69,11 @@
 } 
 
     .container-foot{
-      margin-top: -80px;
+      /*margin-top: -80px;
       padding: 50px;
       width: auto;
-      height: auto;
+      height: auto;*/
+      padding: 20px;
 }
 
     .container-foot-2{
@@ -91,20 +92,20 @@
       text-align:left;
       border-radius: 15px;
       box-shadow: 4px 4px 7px #696A78;
-      margin: 30px 60px 30px 60px;
+      margin: 30px auto;
       padding: 35px;
       height: 450px;
-      width: auto;
+      width: 80%;
+      max-width: 400px;
       border-left: 10px solid #642826;
      
 }
 
     .form-container, input, textarea {
 			font-size: 16px;
-      width: 300px;
-      height: 50%;
+      width: 100%;
       margin-bottom: 20px;
-      right: -800px;    
+        
      
 }
     .text-contact-container{
@@ -130,6 +131,7 @@
       margin: 30px 60px 30px 60px;
       padding: 30px;
       width: 90%;
+      max-width: 800px;
       height: auto;
 }
    
@@ -261,7 +263,7 @@
      animation: move 2s 1;
      text-decoration: none;
      background-image: url('/assets/img/whatsapp_480px.png');
-     background-position:925px;
+     background-position: right center;
      background-size: 25px;
      background-repeat: no-repeat;
      text-align: left;
@@ -291,8 +293,9 @@
 
 .logo-container img {
   background-color: transparent;
-    width: 150px; /* Ajuste conforme necessário */
-    height: 150px;
+    width: 100%; /* Ajuste conforme necessário */
+    max-width: 150px;
+    height: auto;
 }
 
 .info-container {
@@ -304,7 +307,7 @@
 }
 
 .copyright-container p {
-    margin-bottom: -10px;
+    margin-bottom: 0;
 }
 
 #current-year {
@@ -336,5 +339,31 @@
     font-size: 30px; /* Tamanho dos ícones */
 }
 
+/* Media Queries para dispositivos móveis */
+@media only screen and (max-width: 600px) {
+  nav ul {
+      display: block;
+      text-align: center;
+  }
 
+  nav ul li {
+      display: block;
+      margin: 10px 0;
+  }
+
+  .container-foot,
+  .form-container,
+  .card-container-master,
+  .card-container {
+      width: 90%;
+  }
+
+  .card-container {
+      padding: 15px;
+  }
+
+  .footer-container {
+      padding: 10px;
+  }
+}
 
