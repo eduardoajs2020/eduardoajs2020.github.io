@@ -336,7 +336,7 @@
     font-size: 30px; /* Tamanho dos ícones */
 }
 
-/* Media Queries para dispositivos móveis */
+/* Media Queries para dispositivos móveis 
 @media only screen and (max-width: 600px) {
   nav ul {
       display: block;
@@ -363,4 +363,4 @@
       padding: 10px;
   }
 }
-
+*/
