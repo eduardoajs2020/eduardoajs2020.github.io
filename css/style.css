@@ -69,11 +69,10 @@
 } 
 
     .container-foot{
-      /*margin-top: -80px;
+      margin-top: -80px;
       padding: 50px;
       width: auto;
-      height: auto;*/
-      padding: 20px;
+      height: auto;
 }
 
     .container-foot-2{
@@ -92,20 +91,20 @@
       text-align:left;
       border-radius: 15px;
       box-shadow: 4px 4px 7px #696A78;
-      margin: 30px auto;
+      margin: 30px 60px 30px 60px;
       padding: 35px;
       height: 450px;
-      width: 80%;
-      max-width: 400px;
+      width: auto;
       border-left: 10px solid #642826;
      
 }
 
     .form-container, input, textarea {
 			font-size: 16px;
-      width: 100%;
+      width: 300px;
+      height: 50%;
       margin-bottom: 20px;
-        
+      right: -800px;    
      
 }
     .text-contact-container{
@@ -131,7 +130,6 @@
       margin: 30px 60px 30px 60px;
       padding: 30px;
       width: 90%;
-      max-width: 800px;
       height: auto;
 }
    
@@ -263,7 +261,7 @@
      animation: move 2s 1;
      text-decoration: none;
      background-image: url('/assets/img/whatsapp_480px.png');
-     background-position: right center;
+     background-position:925px;
      background-size: 25px;
      background-repeat: no-repeat;
      text-align: left;
@@ -293,9 +291,8 @@
 
 .logo-container img {
   background-color: transparent;
-    width: 100%; /* Ajuste conforme necessário */
-    max-width: 150px;
-    height: auto;
+    width: 150px; /* Ajuste conforme necessário */
+    height: 150px;
 }
 
 .info-container {
@@ -307,7 +304,7 @@
 }
 
 .copyright-container p {
-    margin-bottom: 0;
+    margin-bottom: -10px;
 }
 
 #current-year {
